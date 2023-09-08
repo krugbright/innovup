@@ -1,0 +1,101 @@
+.card__course {
+  padding: 20px;
+  border: 1px solid var(--primary-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  border-radius: 15px;
+  margin: 10px 10px ;
+}
+
+.card__course .card__course-img {
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card__course .course__info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card__course .course__info .course__info-profil {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.card__course .course__info .course__info-name {
+  font-size: 12px;
+  width: 40%;
+  color: grey;
+}
+
+.card__course .course__info .course__info-cat {
+  font-size: smaller;
+  color: var(--primary-dark);
+  background-color: #ffdfd6;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.card__course .course__title {
+  font-weight: bold;
+  font-size: small;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card__course .course__info__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__course .course__info__bottom .course__info-duration {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__course .course__info__bottom .course__info-mode {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__course .course__info__bottom .course__info-duration .material-symbols-outlined {
+  color: var(--primary-dark);
+}
+
+.card__course .course__info__bottom .course__info-duration p {
+  font-size: smaller;
+  margin: 0px 5px;
+}
+
+.card__course .course__info__bottom .course__info-mode p {
+  font-size: smaller;
+  margin: 0px 5px;
+}
+
+.card__course .course__info__bottom .course__info-mode .material-symbols-outlined {
+  color: var(--primary-dark);
+}
+.card__course .course__price{
+    background-color: #ffdfd6;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px 0px;
+    font-weight: bold;
+   display: flex;
+   justify-content: center;
+}

@@ -1,0 +1,41 @@
+.container__starter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  background: linear-gradient(
+    87deg,
+    rgba(235, 89, 50, 0.08) 0%,
+    rgba(242, 160, 33, 0.03) 100%
+  );
+  border-radius: 25px;
+  padding: 70px 93px;
+}
+
+.container__starter button {
+  width: 150px;
+  outline: revert;
+  background-color: var(--primary-dark);
+  border: 1px solid var(--primary-dark);
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
+
+
+
+.container__starter-text h1 span{
+    color: var(--primary-light);
+}
+.container__starter-text{
+  width: 500px;
+}
+
+.container__starter-text p {
+
+  width: 85%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

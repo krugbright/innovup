@@ -1,0 +1,124 @@
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#logo_head {
+  width: 200px;
+}
+
+.header__container-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 100px;
+  position: static;
+}
+.header__container-menu.fixed {
+  z-index: 100;
+  width: 95%;
+  background-color: white;
+  height: 100px;
+  position: fixed;
+}
+
+.header__container-menu a {
+  text-decoration: none;
+  color: black;
+}
+.header__container-menu a:active {
+  color: black;
+}
+.header__container-menu a:visited {
+  color: black;
+}
+
+.menu__links {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+.menu__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+}
+
+.btn__login {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--secondary);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn__register {
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: none;
+  cursor: pointer;
+  color: var(--secondary);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.header__container-banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    87deg,
+    rgba(242, 160, 33, 0.03) 0%,
+    rgba(235, 89, 50, 0.08) 100%
+  );
+}
+
+.header__container-banner .banner__left {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 70px;
+}
+
+.banner__left h1 {
+  font-size: 3.2rem;
+  width: 80%;
+  text-align: left;
+}
+
+.banner__left p {
+  font-size: 15px;
+  margin: 30px 0px;
+}
+
+.banner__left button {
+  width: 150px;
+  outline: revert;
+  background-color: var(--primary-dark);
+  border: 1px solid var(--primary-dark);
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.header__container-banner .banner__right {
+  flex: 5;
+}
+
+.banner__right img {
+  width: 700px;
+}

@@ -1,0 +1,37 @@
+.most-course__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.most-course__container .most-course__container-head {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.most-course__container .most-course__container-head p {
+  width: 30vw;
+}
+
+.most-course__container .most-course__container-head button {
+  width: 150px;
+  outline: revert;
+  background-color: var(--primary-dark);
+  border: 1px solid var(--primary-dark);
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.most-course__container-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
