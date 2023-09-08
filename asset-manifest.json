@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/innovup/static/css/main.4b2bcca6.css",
+    "main.js": "/innovup/static/js/main.ecc51da7.js",
+    "static/media/banner_img.png": "/innovup/static/media/banner_img.b643c067f67d34adfc4d.png",
+    "static/media/logo2.png": "/innovup/static/media/logo2.69c5ef2c0c055d49adda.png",
+    "static/media/cvadd2.jpg": "/innovup/static/media/cvadd2.ec7c5dbd963d252122cb.jpg",
+    "static/media/cvadd1.jpg": "/innovup/static/media/cvadd1.ffd8667834c2804b36d7.jpg",
+    "static/media/cvadd5.jpg": "/innovup/static/media/cvadd5.eed2b8f07a935a342ac6.jpg",
+    "static/media/emmanuel.jpg": "/innovup/static/media/emmanuel.2bba155c656108c53ab6.jpg",
+    "static/media/cvadd6.jpg": "/innovup/static/media/cvadd6.6cd79a431bc9f9370133.jpg",
+    "static/media/cvadd3.jpg": "/innovup/static/media/cvadd3.d23645b94e8faf57d3a4.jpg",
+    "static/media/cvadd4.jpg": "/innovup/static/media/cvadd4.53e28cfa85a37aa6a48e.jpg",
+    "static/media/dine.jpg": "/innovup/static/media/dine.39db13510f73e8f73840.jpg",
+    "static/media/curve.png": "/innovup/static/media/curve.f117183d325548c03b55.png",
+    "static/media/social-media-marketing.png": "/innovup/static/media/social-media-marketing.cd94e465f726cac702ec.png",
+    "static/media/motivation.png": "/innovup/static/media/motivation.177ed16886888963af97.png",
+    "index.html": "/innovup/index.html",
+    "main.4b2bcca6.css.map": "/innovup/static/css/main.4b2bcca6.css.map",
+    "main.ecc51da7.js.map": "/innovup/static/js/main.ecc51da7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b2bcca6.css",
+    "static/js/main.ecc51da7.js"
+  ]
+}
