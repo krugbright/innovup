@@ -4,10 +4,13 @@ import "./starter.css";
 import user from "../../assets/user.png";
 import choice from "../../assets/choice.png";
 import enjoy from "../../assets/enjoy.png";
+import ReavealLR from "../../components/reveal/ReavealLR";
+import ReavealRL from "../../components/reveal/ReavealRL";
 
 function Starter() {
   return (
     <section className="container__starter" id="starter">
+      <ReavealRL>
       <CardStarter
         iconSrc={user}
         title={"Créez votre compte"}
@@ -26,16 +29,19 @@ function Starter() {
         text={"Apprenez selon votre emploi du temps."}
         color="#a9d9fc"
       />
-      <div className="container__starter-text">
-        <h1>
-          Simple <span>3 way</span> to start learning
-        </h1>
-        <p>
-          Rejoignez-nous dès maintenant pour façonner votre avenir grâce à l'apprentissage
-          en ligne de qualité supérieure.
-        </p>
-        <button>Se connecter</button>
-      </div>
+      </ReavealRL>
+      <ReavealLR>
+        <div className="container__starter-text">
+          <h1>
+            <span> 3 façons</span> simples de commencer à apprendre
+          </h1>
+          <p>
+            Rejoignez-nous dès maintenant pour façonner votre avenir grâce à
+            l'apprentissage en ligne de qualité supérieure.
+          </p>
+          <button>Se connecter</button>
+        </div>
+      </ReavealLR>
     </section>
   );
 }

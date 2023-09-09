@@ -1,12 +1,15 @@
-import React from 'react'
-import "./title_left.css"
+import React from "react";
+import "./title_left.css";
+import Reaveal from "../reveal/Reaveal";
 
-function TitleLeft({title}) {
+function TitleLeft({ title }) {
   return (
     <div className="title__left">
-      <p>{title}</p>
+      <Reaveal>
+        <p>{title}</p>
+      </Reaveal>
     </div>
-  )
+  );
 }
 
-export default TitleLeft
+export default TitleLeft;

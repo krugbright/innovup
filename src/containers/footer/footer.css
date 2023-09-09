@@ -57,6 +57,12 @@ ul {
 .footer__ctn .footer__ctn-body .footer__ctn-body--col5 p {
   margin: 5px;
 }
+.footer-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 10%;
+}
 
 /* 
 .footer__ctn .footer__ctn-body {

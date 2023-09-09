@@ -18,7 +18,7 @@
   position: static;
 }
 .header__container-menu.fixed {
-  z-index: 100;
+  z-index: 10;
   width: 95%;
   background-color: white;
   height: 100px;
@@ -46,6 +46,26 @@
   align-items: center;
   width: 40%;
 }
+
+.menu__links-item a {
+  position: relative;
+}
+
+.menu__links-item a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: var(--primary-dark);
+  transition: width 400ms;
+}
+
+.menu__links-item a:hover::before {
+  width: 100%;
+}
+
 .menu__btn {
   display: flex;
   flex-direction: row;

@@ -7,6 +7,7 @@ import Categorie from "./containers/categorie/Categorie";
 import MostCourse from "./containers/most_course/MostCourse";
 import Footer from "./containers/footer/Footer";
 import About from "./containers/about/About";
+import Spacer from "./components/spacer/Spacer";
 
 function App() {
   return (

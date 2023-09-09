@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 import logoFooter from "../../assets/logo2.png";
-import { BsFacebook } from "react-icons/bs";
+import { BsFacebook, BsInstagram } from "react-icons/bs";
 
 function Footer() {
   return (
@@ -46,9 +46,12 @@ function Footer() {
           <a href="mailto=">email@gmail.com</a>
 
           <p>+229 53 83 30 01</p>
-          <div>
-            <p>Suivez nous sur </p>
-            <BsFacebook />
+          <p>Suivez nous sur </p>
+          <div className="footer-icon">
+            
+            <a href="https://www.facebook.com/cvaddinnov/" target="_blank" rel="noopener noreferrer"><BsFacebook /></a>
+            <a href="https://www.facebook.com/cvaddinnov/" target="_blank" rel="noopener noreferrer"><BsInstagram /></a>
+            
           </div>
         </div>
       </div>

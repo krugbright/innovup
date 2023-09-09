@@ -1,10 +1,13 @@
 import React from "react";
 import "./title_center.css";
+import Reaveal from "../reveal/Reaveal";
 
 function TitleCenter({ title }) {
   return (
     <div className="title__center">
-      <p>{title}</p>
+      <Reaveal>
+        <p>{title}</p>
+      </Reaveal>
     </div>
   );
 }

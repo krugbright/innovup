@@ -6,6 +6,7 @@ import cvadd3 from "../../assets/cvadd3.jpg";
 import cvadd4 from "../../assets/cvadd4.jpg";
 import cvadd5 from "../../assets/cvadd5.jpg";
 import cvadd6 from "../../assets/cvadd6.jpg";
+import Reaveal from "../../components/reveal/Reaveal";
 
 function About() {
   return (
@@ -30,20 +31,21 @@ function About() {
           <div className="clipped-border">
             <img src={cvadd6} id="clipped" alt="" />
           </div>
-          
         </div>
       </div>
-      <div className="ctn__right">
-        <h1>Une communauté, un laboratoire ...</h1>
-        <p>
-          Communauté axée sur l'innovation au sein de la jeunesse Béninoise et d'ailleurs,
-          INNOV UP est un laboratoire d'innovation et de team building destiné à
-          l'apprentissage, à la découverte et à la mise en œuvre des solutions efficaces
-          et idoines à la création de richesses par les jeunes. Nous agissons
-          principalement dans la recherche de solution numérique étendu vers tous les
-          autres domaine.
-        </p>
-      </div>
+      <Reaveal>
+        <div className="ctn__right">
+          <h1>Une communauté, un laboratoire ...</h1>
+          <p>
+            Communauté axée sur l'innovation au sein de la jeunesse Béninoise et
+            d'ailleurs, INNOV UP est un laboratoire d'innovation et de team building
+            destiné à l'apprentissage, à la découverte et à la mise en œuvre des solutions
+            efficaces et idoines à la création de richesses par les jeunes. Nous agissons
+            principalement dans la recherche de solution numérique étendu vers tous les
+            autres domaine.
+          </p>
+        </div>
+      </Reaveal>
     </section>
   );
 }
